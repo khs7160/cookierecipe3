@@ -1,0 +1,117 @@
+/*Fonts and Colors */
+:root {
+   --header-color: #9D221E;
+   --bg-color: #F8B12C;
+   --font-color: black;
+   --h1-color: #859D3C;
+   --h2-color: #382615;
+   --h3-color: #996236;
+   --link-color: #ED732E;
+}
+
+body {
+   color: var(--font-color);
+   background-color: var(--bg-color);
+   margin: 0;
+}
+p {
+    color: var(--font-color);
+    text-align: left;
+}
+h1 {
+   color: var(--h1-color);
+ }
+      
+h2 {
+   color: var(--h2-color);
+}
+h3 {
+    color: var(--h3-color);
+}
+
+a:link {
+   color: var(--link-color);  
+}   
+
+a:visited {
+   color: var(--h3-color);  
+}   
+
+a:hover {
+    color: var(--h3-color);
+}
+
+a:active {
+   color: purple;
+}   
+/*Class Styles */
+* {
+    box-sizing: border-box;
+  }  
+  
+.header {
+    background-color: var(--header-color);
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+  /*Main Body Styling */
+  body {
+    margin: 10px;
+  }
+/*Navigation Styling */
+.navigation {
+    overflow: hidden;
+    background-color: #ED732E;
+}
+.navigation a {
+    float: left;
+    color: var(--font-color);
+    text-align: center;
+    Margin-left: 20px;
+    padding: 16px 16px;
+  }
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.description {
+    width: 33.33%;
+    display: block;
+    color: var(--font-color);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.recipe {
+    width: 33.33%;
+    color: var(--font-color);
+    text-align: left;
+    padding: 14px 16px;
+}
+
+.image {
+    float: right;
+    width: 50%;
+    }
+
+.instructions {
+    width: 33.33%;
+    color: var(--font-color);
+    text-align: left;
+    padding: 14px 16px;
+}
+
+.nutritionfacts {
+    width: 33.33%;
+    padding: 20px;
+    text-align: left;
+    padding: 14px 16px;
+}
+.contact {
+    background-color: var(--bg-color);
+    padding: 20px;
+    text-align: left;
+    width: 33.33%;
+}
